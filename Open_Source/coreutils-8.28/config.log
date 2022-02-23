@@ -36,6 +36,7 @@ PATH: /bin
 PATH: /usr/games
 PATH: /usr/local/games
 PATH: /snap/bin
+PATH: /home/nonroot/bin/
 
 
 ## ----------- ##
@@ -361,7 +362,7 @@ configure:7243: result: no
 configure:7421: autobuild project... GNU coreutils
 configure:7427: autobuild revision... 8.28
 configure:7432: autobuild hostname... 5hafayet-kubuntu
-configure:7443: autobuild timestamp... 20220223T061923Z
+configure:7443: autobuild timestamp... 20220223T062435Z
 configure:8236: checking for fchmod
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
 configure:8236: $? = 0
@@ -396,7 +397,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for _set_invalid_parameter_handler
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccQXVtwc.o: in function `main':
+/usr/bin/ld: /tmp/ccWxOHVo.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:82: undefined reference to `_set_invalid_parameter_handler'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -664,7 +665,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for fpurge
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cc4KK8FG.o: in function `main':
+/usr/bin/ld: /tmp/ccSdx3KT.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:97: undefined reference to `fpurge'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -776,7 +777,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for __freadahead
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccDw8KFt.o: in function `main':
+/usr/bin/ld: /tmp/cc4VlCFG.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:98: undefined reference to `__freadahead'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -889,7 +890,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for __freadptr
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccenKIye.o: in function `main':
+/usr/bin/ld: /tmp/cckgJLWu.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:99: undefined reference to `__freadptr'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -999,7 +1000,7 @@ configure: failed program was:
 configure:8236: result: no
 configure:8236: checking for __freadptrinc
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccMiUfLA.o: in function `main':
+/usr/bin/ld: /tmp/cc5HlDXP.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:99: undefined reference to `__freadptrinc'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -1109,7 +1110,7 @@ configure: failed program was:
 configure:8236: result: no
 configure:8236: checking for __fseterr
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccTKSD1Z.o: in function `main':
+/usr/bin/ld: /tmp/cc35kWpe.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:99: undefined reference to `__fseterr'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -1255,7 +1256,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for microuptime
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccZSjRef.o: in function `main':
+/usr/bin/ld: /tmp/ccWUyogt.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:108: undefined reference to `microuptime'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -1374,7 +1375,7 @@ configure: failed program was:
 configure:8236: result: no
 configure:8236: checking for nanouptime
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cct2YHyE.o: in function `main':
+/usr/bin/ld: /tmp/cckpP2rP.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:108: undefined reference to `nanouptime'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -1517,7 +1518,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for getprogname
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccIbxVAA.o: in function `main':
+/usr/bin/ld: /tmp/cc15zjFQ.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:114: undefined reference to `getprogname'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -1642,7 +1643,7 @@ configure: failed program was:
 configure:8236: result: no
 configure:8236: checking for getexecname
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cc8OnRAY.o: in function `main':
+/usr/bin/ld: /tmp/ccKUf8wa.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:114: undefined reference to `getexecname'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -1771,7 +1772,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for nanotime
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccupYDIM.o: in function `main':
+/usr/bin/ld: /tmp/ccdMH00X.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:115: undefined reference to `nanotime'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -1949,7 +1950,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for mbslen
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccUalepW.o: in function `main':
+/usr/bin/ld: /tmp/ccpOyW29.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:125: undefined reference to `mbslen'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -2152,7 +2153,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for stime
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccoLVHhw.o: in function `main':
+/usr/bin/ld: /tmp/cc4BYH4L.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:141: undefined reference to `stime'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -2399,7 +2400,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for vasnprintf
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccmdDEfL.o: in function `main':
+/usr/bin/ld: /tmp/ccIVfRdL.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:161: undefined reference to `vasnprintf'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -2591,7 +2592,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for pthread_sigmask
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccYY5zvk.o: in function `main':
+/usr/bin/ld: /tmp/ccHMat2k.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:166: undefined reference to `pthread_sigmask'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -2788,7 +2789,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for directio
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccllO4wS.o: in function `main':
+/usr/bin/ld: /tmp/cco92Z9R.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:171: undefined reference to `directio'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -3028,7 +3029,7 @@ configure:8236: $? = 0
 configure:8236: result: yes
 configure:8236: checking for getgrgid_nomembers
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccllde16.o: in function `main':
+/usr/bin/ld: /tmp/ccnbhwC5.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:184: undefined reference to `getgrgid_nomembers'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -3223,7 +3224,7 @@ configure: failed program was:
 configure:8236: result: no
 configure:8236: checking for getgrnam_nomembers
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccPiJx5u.o: in function `main':
+/usr/bin/ld: /tmp/ccT3aKtt.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:184: undefined reference to `getgrnam_nomembers'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -3418,7 +3419,7 @@ configure: failed program was:
 configure:8236: result: no
 configure:8236: checking for getgrent_nomembers
 configure:8236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cc1wQlwQ.o: in function `main':
+/usr/bin/ld: /tmp/ccMmWZ8N.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:184: undefined reference to `getgrent_nomembers'
 collect2: error: ld returned 1 exit status
 configure:8236: $? = 1
@@ -10990,7 +10991,7 @@ configure:18357: result: yes
 configure:18362: checking for pthread.h
 configure:18362: result: yes
 configure:18400: gcc -o conftest -g -O2   conftest.c   >&5
-/usr/bin/ld: /tmp/ccfBajZi.o: in function `main':
+/usr/bin/ld: /tmp/ccNxtere.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:265: undefined reference to `pthread_mutexattr_init'
 collect2: error: ld returned 1 exit status
 configure:18400: $? = 1
@@ -12878,7 +12879,7 @@ configure:22077: checking whether unlink of a parent directory fails as it shoul
 configure:22149: result: guessing yes
 configure:22178: checking for library containing setfilecon
 configure:22209: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccwfnj2S.o: in function `main':
+/usr/bin/ld: /tmp/cc28JVfR.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:283: undefined reference to `setfilecon'
 collect2: error: ld returned 1 exit status
 configure:22209: $? = 1
@@ -14358,7 +14359,7 @@ configure:24680: gcc -o conftest -g -O2   conftest.c  >&5
 configure:24680: $? = 0
 configure:24680: ./conftest
 *** %n in writable segment detected ***
-configure: line 3037: 12373 Aborted                 (core dumped) ./conftest$ac_exeext
+configure: line 3037: 28465 Aborted                 (core dumped) ./conftest$ac_exeext
 configure:24680: $? = 134
 configure: program exited with status 134
 configure: failed program was:
@@ -17123,7 +17124,7 @@ configure:31285: checking whether fflush works on input streams
 configure:31365: result: no
 configure:31399: checking for _fseeki64
 configure:31399: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccas7mpq.o: in function `main':
+/usr/bin/ld: /tmp/cc4crTxf.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:421: undefined reference to `_fseeki64'
 collect2: error: ld returned 1 exit status
 configure:31399: $? = 1
@@ -25552,7 +25553,7 @@ configure:36444: $? = 0
 configure:36451: result: yes
 configure:36470: checking for isapipe
 configure:36470: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccyjIx5q.o: in function `main':
+/usr/bin/ld: /tmp/ccFSYs8a.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:473: undefined reference to `isapipe'
 collect2: error: ld returned 1 exit status
 configure:36470: $? = 1
@@ -26100,7 +26101,7 @@ configure:37860: $? = 0
 configure:37871: result: yes
 configure:37911: checking for __xpg4
 configure:37927: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccIozfdy.o: in function `main':
+/usr/bin/ld: /tmp/ccTdXTS6.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:458: undefined reference to `__xpg4'
 collect2: error: ld returned 1 exit status
 configure:37927: $? = 1
@@ -28225,7 +28226,7 @@ configure:41301: $? = 0
 configure:41313: result: yes
 configure:41407: checking for __mktime_internal
 configure:41407: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccap1aDK.o: in function `main':
+/usr/bin/ld: /tmp/ccTvuIUf.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:521: undefined reference to `__mktime_internal'
 collect2: error: ld returned 1 exit status
 configure:41407: $? = 1
@@ -28757,7 +28758,7 @@ configure: failed program was:
 configure:41407: result: no
 configure:41444: checking for listmntent
 configure:41444: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccKhnCR5.o: in function `main':
+/usr/bin/ld: /tmp/cc7szfcC.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:522: undefined reference to `listmntent'
 collect2: error: ld returned 1 exit status
 configure:41444: $? = 1
@@ -29290,7 +29291,7 @@ configure: failed program was:
 configure:41444: result: no
 configure:41444: checking for getmntinfo
 configure:41444: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccaJhaDr.o: in function `main':
+/usr/bin/ld: /tmp/cc3q8jkY.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:522: undefined reference to `getmntinfo'
 collect2: error: ld returned 1 exit status
 configure:41444: $? = 1
@@ -36744,7 +36745,7 @@ configure:42786: $? = 0
 configure:42786: result: yes
 configure:42786: checking for sched_getaffinity_np
 configure:42786: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccU7vfAU.o: in function `main':
+/usr/bin/ld: /tmp/ccj4BLtl.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:536: undefined reference to `sched_getaffinity_np'
 collect2: error: ld returned 1 exit status
 configure:42786: $? = 1
@@ -37291,7 +37292,7 @@ configure: failed program was:
 configure:42786: result: no
 configure:42786: checking for pstat_getdynamic
 configure:42786: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cc9vNp0f.o: in function `main':
+/usr/bin/ld: /tmp/ccaTL2dG.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:536: undefined reference to `pstat_getdynamic'
 collect2: error: ld returned 1 exit status
 configure:42786: $? = 1
@@ -37838,7 +37839,7 @@ configure: failed program was:
 configure:42786: result: no
 configure:42786: checking for sysmp
 configure:42786: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccTrj7VD.o: in function `main':
+/usr/bin/ld: /tmp/cco3RV84.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:536: undefined reference to `sysmp'
 collect2: error: ld returned 1 exit status
 configure:42786: $? = 1
@@ -40621,7 +40622,7 @@ configure:43297: checking for sys/sysctl.h
 configure:43297: result: yes
 configure:43316: checking for pstat_getstatic
 configure:43316: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccm9BSqZ.o: in function `main':
+/usr/bin/ld: /tmp/cc2457Uq.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:550: undefined reference to `pstat_getstatic'
 collect2: error: ld returned 1 exit status
 configure:43316: $? = 1
@@ -41186,7 +41187,7 @@ configure:43316: checking for sysmp
 configure:43316: result: no
 configure:43316: checking for getsysinfo
 configure:43316: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cceY5Z6W.o: in function `main':
+/usr/bin/ld: /tmp/ccwjic4n.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:550: undefined reference to `getsysinfo'
 collect2: error: ld returned 1 exit status
 configure:43316: $? = 1
@@ -41749,7 +41750,7 @@ configure:43316: checking for sysctl
 configure:43316: result: yes
 configure:43316: checking for table
 configure:43316: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccwUw7QY.o: in function `main':
+/usr/bin/ld: /tmp/ccm01ewp.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:551: undefined reference to `table'
 collect2: error: ld returned 1 exit status
 configure:43316: $? = 1
@@ -42343,7 +42344,7 @@ configure:43903: $? = 0
 configure:43903: result: yes
 configure:43919: checking for getppriv
 configure:43919: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cczbmtZV.o: in function `main':
+/usr/bin/ld: /tmp/ccI4Hmtn.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:559: undefined reference to `getppriv'
 collect2: error: ld returned 1 exit status
 configure:43919: $? = 1
@@ -44086,7 +44087,7 @@ configure: failed program was:
 configure:44092: result: yes
 configure:44144: checking for library containing pthread_create and pthread_join
 configure:44168: gcc -o conftest -g -O2   conftest.c   >&5
-/usr/bin/ld: /tmp/ccpHxk4k.o: in function `main':
+/usr/bin/ld: /tmp/ccEb2dCL.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:536: undefined reference to `pthread_create'
 /usr/bin/ld: /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:537: undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
@@ -52147,7 +52148,7 @@ configure:46871: $? = 0
 configure:46881: result: yes
 configure:46926: checking for sig2str
 configure:46926: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccmFmc6i.o: in function `main':
+/usr/bin/ld: /tmp/ccSFg3cI.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:608: undefined reference to `sig2str'
 collect2: error: ld returned 1 exit status
 configure:46926: $? = 1
@@ -60250,7 +60251,7 @@ configure: failed program was:
 configure:51666: result: no
 configure:51761: checking for library containing timer_settime
 configure:51792: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccSlOePM.o: in function `main':
+/usr/bin/ld: /tmp/ccppaYAv.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:627: undefined reference to `timer_settime'
 collect2: error: ld returned 1 exit status
 configure:51792: $? = 1
@@ -63704,7 +63705,7 @@ configure:57194: $? = 0
 configure:57194: result: yes
 configure:57206: checking for getlocalename_l
 configure:57206: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cctH5bOa.o: in function `main':
+/usr/bin/ld: /tmp/ccxCPAGO.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:695: undefined reference to `getlocalename_l'
 collect2: error: ld returned 1 exit status
 configure:57206: $? = 1
@@ -71907,7 +71908,7 @@ configure: failed program was:
 configure:62458: result: no
 configure:62495: checking for mode_to_security_class
 configure:62495: gcc -o conftest -g -O2   conftest.c   >&5
-/usr/bin/ld: /tmp/cccKLQI6.o: in function `main':
+/usr/bin/ld: /tmp/ccmpO8ON.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:731: undefined reference to `mode_to_security_class'
 collect2: error: ld returned 1 exit status
 configure:62495: $? = 1
@@ -72649,7 +72650,7 @@ configure: failed program was:
 configure:62495: result: no
 configure:62507: checking for matchpathcon_init_prefix
 configure:62507: gcc -o conftest -g -O2   conftest.c   >&5
-/usr/bin/ld: /tmp/ccfNo3Sa.o: in function `main':
+/usr/bin/ld: /tmp/ccHMJiUQ.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:731: undefined reference to `matchpathcon_init_prefix'
 collect2: error: ld returned 1 exit status
 configure:62507: $? = 1
@@ -84613,7 +84614,7 @@ configure:64474: $? = 0
 configure:64489: result: no
 configure:64500: checking for getattrat
 configure:64500: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cccW55Ie.o: in function `main':
+/usr/bin/ld: /tmp/cckV5DEU.o: in function `main':
 /home/nonroot/Documents/Linux_Mastery_Ziyad_Yehia/Open_Source/coreutils-8.28/conftest.c:744: undefined reference to `getattrat'
 collect2: error: ld returned 1 exit status
 configure:64500: $? = 1
@@ -86998,6 +86999,7 @@ config.status:: creating Makefile
 config.status:: creating po/Makefile.in
 config.status:: creating gnulib-tests/Makefile
 config.status:: creating lib/config.h
+config.status:: lib/config.h is unchanged
 config.status:: executing depfiles commands
 config.status:: executing po-directories commands
 
